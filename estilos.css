@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #e9e9e9;
+    font-size: 1rem;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/004/753/390/large_2x/dark-wood-texture-old-panels-background-free-photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #51008a;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1.25rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #5f00b1;
+    padding: 1.25rem;
+}
+
+nav a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none; /*Le saca el subrayado a los links */
+    font-size: 1.125rem;
+}
+
+nav a:hover {
+    text-decoration: underline; /*Hace que el subrayado solo aparezca cuando pasas el mouse*/
+}
+
+main {
+    padding: 2.5rem;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2.5rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap; /*Permite que las tarjetas se ajusten a la siguiente línea si superan el ancho del contenedor. */
+    gap: 2.5rem;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 0.625rem 1.25rem rgba(0, 0, 0, 0.2);
+    width: 30%;
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+a.button {
+    display: inline-block; /*Hace que el link se comporte como bloque para darle algunas propiedades. */
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    margin-top: 1.25rem;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+#DND{
+    background-image: url('https://th.bing.com/th?id=OIP.-EYzVEf3nAZFvPlVjIruJwHaE8&w=305&h=204&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Catan{
+    background-image: url('https://th.bing.com/th/id/OIP.ovdmFxov7Rn-c5uZ4g67-wHaEo?w=315&h=187&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#W40k{
+    background-image: url('https://th.bing.com/th/id/OIP.aZcp0v35rMkoGbo1S_q4cgHaEc?w=298&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #f4f4f4;
+}
