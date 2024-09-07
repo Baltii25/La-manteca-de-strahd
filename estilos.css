@@ -75,6 +75,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+a{
+    color: white;
+    margin: 1%;
+}
 
 a.button {
     display: inline-block; /*Hace que el link se comporte como bloque para darle algunas propiedades. */
@@ -107,4 +111,15 @@ a.button:hover {
     background-repeat: no-repeat;
     background-size: cover;
     color: #f4f4f4;
+}
+#message{
+    color: green; 
+    display: none;
+}
+#Inscripción{
+    margin: auto;
+}
+
+form{
+    margin: auto;
 }

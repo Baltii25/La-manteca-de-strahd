@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Inscripción</title>
+</head>
+<body>
+    <body>
+
+        <h2>Formulario de Inscripción</h2>
+        <form class="card" action="user-event-confirmed.html" method="get">
+            <div>
+                <label for="name">Nombre Completo</label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre">
+            </div>
+            <div>
+                <label for="dia">Dia al que asistirás</label>
+                <input type="date" id="dia" name="dia">
+            </div>
+            <div>
+                <label for="juego">Juego o sistema del que quieres participar</label>
+                <input type="text" id="juego" name="juego" placeholder="Ingresá el juego o sistema">
+            </div>
+            <div>
+                <label for="categoria">Rol en el que participaras</label>
+                <select id="categoria" name="categoria">
+                    <option value="">Selecciona una categoría</option>
+                    <option value="Jugador">Jugador</option>
+                    <option value="Director">Director</option>
+                </select>
+            </div>
+            <div></div>
+                <label for="experiencia">Experiencia en el juego del que participaras</label>
+                <select id="experiencia" name="experiencia">
+                    <option value="">Selecciona una categoría</option>
+                    <option value="Ninguna">Ninguna|</option>
+                    <option value="Poca">Poca</option>
+                    <option value="Media">Media</option>
+                    <option value="Veterano">Veterano</option>
+                </select>
+            </div> <br>
+            <button type="submit">Enviar Inscripción</button>
+        </form>
+</body>
+</html>
