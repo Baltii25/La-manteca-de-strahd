@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información del Propietario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Información del Evento</h1>
+        <p>Aquí puedes ver la información proporcionada sobre el evento.</p>
+    </header>
+
+    <main>
+        <div>
+            <p><strong>Horario de Inicio:</strong> <span id="startTime"></span></p>
+            <p><strong>Horario de Finalización:</strong> <span id="endTime"></span></p>
+            <p><strong>Fecha de inicio:</strong> <span id="dateS"></span></p>
+            <p><strong>Fecha de finalización:</strong> <span id="dateF"></span></p>
+            <p><strong>Correo Electrónico:</strong> <span id="email"></span></p>
+        </div>
+    </main>
+
+    <footer>
+        <a href="owner-form.html">Editar Información</a>
+        <a href="index.html">Volver al inicio</a>
+    </footer>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const startTime = urlParams.get('startTime');
+        const endTime = urlParams.get('endTime');
+        const dateS= urlParams.get('dateS');
+        const dateF= urlParams.get('dateF');
+        const email= urlParams.get('email');
+
+        document.getElementById('startTime').textContent = startTime;
+        document.getElementById('endTime').textContent = endTime;
+        document.getElementById('dateS').textContent = dateS;
+        document.getElementById('dateF').textContent = dateF;
+        document.getElementById('email').textContent = email;
+    </script>
+</body>
+</html>

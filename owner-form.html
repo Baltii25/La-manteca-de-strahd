@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para Propietarios</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <h1>Formulario para Propietarios</h1>
+        <p>Rellena la siguiente información para organizar los eventos de la tienda.</p>
+    </header>
+
+    <main>
+        <form class="card" action="owner-info.html" method="get">
+            <label for="startTime">Horario de Inicio:</label>
+            <input type="time" id="startTime" name="startTime" required><br><br>
+
+            <label for="endTime">Horario de Finalización:</label>
+            <input type="time" id="endTime" name="endTime" required><br><br>
+
+            <label for="dateS">Fecha de inicio:</label>
+            <input type="date" id="dateS" name="dateS" required><br><br>
+
+            <label for="dateF">Fecha de Finalización:</label>
+            <input type="date" id="dateF" name="dateF" required><br><br>
+                       
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <button type="submit" value="Enviar">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <a href="owner-info.html">Ver Información Guardada</a>
+        <a href="index.html">Volver al inicio</a>
+    </footer>
+</body>
+</html>
