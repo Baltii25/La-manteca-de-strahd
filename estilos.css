@@ -80,6 +80,11 @@ a{
     margin: 1%;
 }
 
+a.wiki:hover{
+    text-decoration: underline;
+    color: red;
+}
+
 a.button {
     display: inline-block; /*Hace que el link se comporte como bloque para darle algunas propiedades. */
     background-color: #007BFF;
