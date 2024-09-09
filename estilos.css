@@ -122,9 +122,23 @@ a.button:hover {
     display: none;
 }
 #Inscripción{
-    margin: auto;
+    margin:auto;
+    margin-top: 6%;
 }
 
 form{
     margin: auto;
+    margin-top: 4%;
+}
+
+label{
+    margin-top: 1rem;
+}
+
+input{
+    margin-top: 0.7rem;
+}
+
+#wikiEspecial{
+    color: #333;
 }
